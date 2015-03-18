@@ -12,4 +12,11 @@
     <files>
         <filename plugin="greenbuttonsolutions">greenbuttonsolutions.php</filename>
     </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="dataapp"  type="text" default="" label="Data App" description="Data App text given to you by Green Button Solution" />
+            </fieldset>
+        </fields>
+    </config>
 </extension>

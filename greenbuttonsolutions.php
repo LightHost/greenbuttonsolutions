@@ -11,7 +11,7 @@ class plgSystemGreenbuttonsolutions extends JPlugin
         $lang = JFactory::getLanguage();
 
         if ($menu->getActive() == $menu->getDefault($lang->getTag())) {
-            $dataapp = "namehere";
+            $dataapp = $this->params->get('dataapp');
             $javascript = '<script src="http://greenbuttonsolutions.com/public/js/m.js" data-app="'. $dataapp .'"></script>';
 
             $document = JFactory::getDocument();
