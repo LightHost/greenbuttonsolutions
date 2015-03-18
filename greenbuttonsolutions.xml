@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content">
+    <name>Green Button Solutions - JS</name>
+    <author>LightHost</author>
+    <creationDate>March 2015</creationDate>
+    <copyright>Copyright (C) 2009 - 2015 LightHost (http://www.lighthost.co.il)</copyright>
+    <license>GNU GPLv3 - http://www.gnu.org/licenses/gpl.html</license>
+    <authorEmail>contact@lighthost.co.il</authorEmail>
+    <authorUrl>http://www.lighthost.co.il</authorUrl>
+    <version>1.0</version>
+    <description>A Joomla System plugin for Green Button Solutions JS service.</description>
+    <files>
+        <filename plugin="greenbuttonsolutions">greenbuttonsolutions.php</filename>
+    </files>
+</extension>
